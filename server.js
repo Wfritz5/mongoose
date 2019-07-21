@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://localhost/mongoosescraper", {
+mongoose.connect("mongodb://user:dbpassword1@ds149905.mlab.com:49905/heroku_z6cgtr70", {
     useNewUrlParser: true
 });
 
